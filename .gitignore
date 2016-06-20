@@ -1,0 +1,12 @@
+*.pyc
+_*che__
+myvenv
+db.sqlite3
+.DS_Stor.pyc
+__pycache__
+myvenv
+db.sqlite3
+.DS_Store_pycache__
+myvenv
+db.sqlite3
+.DS_Store
