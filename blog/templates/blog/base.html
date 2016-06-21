@@ -9,7 +9,11 @@
     </head>
 <body>
     <div class="page-header">
-        <h1><a href="https://github.com/mcParkInLiverPool/my-first-blog" target="_blank">mcPark's Django blog</a></h1>
+          {% if user.is_authenticated %}
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+          {% endif %}
+        <a id="github" href=""https://github.com/mcParkInLiverPool/my-first-blog" target="_blank">gitHub</a>
+        <h1><a href="/">mc<b><em><span style="color:red;">P</span></em></b>ark's Django blog</a></h1>
     </div>
     <div class="content container">
         <div class="row">
